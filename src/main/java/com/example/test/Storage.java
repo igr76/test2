@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 @Component
 public class Storage {
-    private DataNumber dataNumber;
+    private static DataNumber dataNumber;
     @Getter
     private Queue<DataNumber> messages = new ConcurrentLinkedQueue<>();
     private ComponentEventBus eventBus = new ComponentEventBus(new Div());
@@ -22,7 +22,6 @@ public class Storage {
     public static class ChatMessage {
          String name;
          String message;
-         DataNumber dataNumber;
 
         public ChatMessage(String name, String message) {
             this.name = name;
