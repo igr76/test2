@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
-
+/** Формирование сообщений чата */
 @Component
 public class Storage {
     private static DataNumber dataNumber;
