@@ -5,7 +5,7 @@ import com.example.test.Storage;
 import com.example.test.repository.StorageRepository;
 import com.example.test.service.StorageServise;
 import org.springframework.stereotype.Service;
-
+/** Сервис чата  реализация */
 @Service
 public class StorageServiseImpl implements StorageServise {
      private StorageRepository repository;

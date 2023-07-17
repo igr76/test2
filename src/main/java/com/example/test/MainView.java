@@ -16,7 +16,7 @@ import com.vaadin.flow.router.Route;
 import org.commonmark.node.Node;
 import org.commonmark.parser.Parser;
 import org.commonmark.renderer.html.HtmlRenderer;
-
+/** Основная логика чата */
 @Route("")
 public class MainView extends VerticalLayout {
     private Storage storage;
